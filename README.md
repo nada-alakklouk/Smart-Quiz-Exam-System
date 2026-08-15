@@ -1,4 +1,4 @@
-# 🎓 Smart Quiz & Exam System
+# Smart Quiz & Exam System
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
@@ -35,13 +35,13 @@ Designed strictly using core fundamentals from **Python Crash Course** (variable
 
 ---
 
-## 🔥 Key Features
+## Key Features
 
-1. **🔐 Secure User Authentication (`Authentication.py`):**
+1. ** Secure User Authentication (`Authentication.py`):**
    - Username and password verification.
    - Enforces a maximum of **3 login attempts**. Exits cleanly if authentication fails.
 
-2. **🖥️ Interactive Main Menu (`main.py`):**
+2. ** Interactive Main Menu (`main.py`):**
    ```text
    ======================== SMART QUIZ SYSTEM ========================
     1. Start Quiz
@@ -54,17 +54,17 @@ Designed strictly using core fundamentals from **Python Crash Course** (variable
    ==================================================================
    ```
 
-3. **📝 Question Bank Management (`questions.py`):**
+3. ** Question Bank Management (`questions.py`):**
    - **Add Question:** Input Question ID, question text, 4 options (A, B, C, D), correct answer, and difficulty (`Easy`, `Medium`, `Hard`).
    - **Delete Question:** Delete by unique Question ID with confirmation prompt.
    - **Search Question:** Search by Question ID, keyword in text, or difficulty level.
 
-4. **🎯 Quiz Engine & Scoring (`quiz.py`):**
+4. ** Quiz Engine & Scoring (`quiz.py`):**
    - Filter questions by difficulty or attempt all available questions.
    - Case-insensitive (`a` vs `A`) and space-tolerant (` A `) answer evaluation.
    - Calculates total score, wrong answers, percentage, and status (`PASSED` if score ≥ 50%, else `FAILED`).
 
-5. **📜 Results Logging & Viewing (`result.py`):**
+5. ** Results Logging & Viewing (`result.py`):**
    - Automatically appends attempt timestamps, username, score, percentage, and status to `data/results.txt`.
    - Displays a formatted tabular history of past quiz attempts.
 
@@ -74,7 +74,7 @@ Designed strictly using core fundamentals from **Python Crash Course** (variable
 
 ---
 
-## 📁 Project Architecture
+##  Project Architecture
 
 ```text
 project/
@@ -94,7 +94,7 @@ project/
 
 ---
 
-## 🧠 Concepts & Technical Requirements
+##  Concepts & Technical Requirements
 
 | Python Concept | Implementation in Project |
 | :--- | :--- |
@@ -109,7 +109,7 @@ project/
 
 ---
 
-## 🏆 Challenge Tasks Solved
+##  Challenge Tasks Solved
 
 | # | Challenge Requirement | Implementation Detail |
 |---|-----------------------|-----------------------|
@@ -123,7 +123,7 @@ project/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -148,7 +148,7 @@ project/
 
 ---
 
-## 🧪 Running Unit Tests
+##  Running Unit Tests
 
 The test suite covers login validation, answer evaluation (case & space sensitivity), score calculation, and search logic.
 
