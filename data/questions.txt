@@ -1,0 +1,10 @@
+{"id": 1, "question": "What is Python?", "options": ["Programming Language", "Database", "Operating System", "Browser"], "answer": "A", "difficulty": "Easy"}
+{"id": 2, "question": "Which data type is immutable in Python?", "options": ["List", "Dictionary", "Tuple", "Set"], "answer": "C", "difficulty": "Easy"}
+{"id": 3, "question": "What key phrase is used to define a function in Python?", "options": ["func", "def", "function", "define"], "answer": "B", "difficulty": "Easy"}
+{"id": 4, "question": "Which symbol is used for inline comments in Python?", "options": ["//", "/*", "#", "--"], "answer": "C", "difficulty": "Easy"}
+{"id": 5, "question": "What is the output of len({'a': 1, 'b': 2, 'c': 3})?", "options": ["6", "3", "2", "Error"], "answer": "B", "difficulty": "Medium"}
+{"id": 6, "question": "Which method removes and returns the last element from a list?", "options": ["remove()", "delete()", "pop()", "discard()"], "answer": "C", "difficulty": "Medium"}
+{"id": 7, "question": "What block handles exceptions in Python?", "options": ["try...except", "do...catch", "try...catch", "attempt...handle"], "answer": "A", "difficulty": "Medium"}
+{"id": 8, "question": "What is list comprehension in Python?", "options": ["A way to create lists concisely", "A function decorator", "A memory profiler", "A list sorting algorithm"], "answer": "A", "difficulty": "Medium"}
+{"id": 9, "question": "What decorator is used to define a class method in Python?", "options": ["@staticmethod", "@classmethod", "@property", "@method"], "answer": "B", "difficulty": "Hard"}
+{"id": 10, "question": "What is the GIL in Python?", "options": ["General Interpreter Logic", "Global Interpreter Lock", "Graphical Interface Layer", "Garbage Inspection Loop"], "answer": "B", "difficulty": "Hard"}
