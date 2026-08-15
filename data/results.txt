@@ -1,0 +1,4 @@
+{"total": 3, "correct": 2, "wrong": 1, "score": 2.0, "percentage": 66.67, "status": "PASSED", "difficulty": "Easy", "date": "2026-08-15 14:20:02"}
+{"total": 4, "correct": 3, "wrong": 1, "score": 3.0, "percentage": 75.0, "status": "PASSED", "difficulty": "Medium", "date": "2026-08-15 14:20:55"}
+{"total": 1, "correct": 0, "wrong": 1, "score": 0.0, "percentage": 0.0, "status": "FAILED", "difficulty": "Hard", "date": "2026-08-15 14:21:25"}
+{"total": 0, "correct": 0, "wrong": 0, "score": 0.0, "percentage": 0.0, "status": "N/A", "difficulty": "All", "date": "2026-08-15 14:21:49"}
