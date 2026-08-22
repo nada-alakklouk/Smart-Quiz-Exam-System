@@ -1,7 +1,7 @@
 import json
 
 #from quiz_system.utils import print_header, print_separator, input_string, input_int, input_choice
-DATA_DIR = r'questions.txt'
+DATA_DIR = r'data\questions.txt'
 def ensure_dir(DATA_DIR =DATA_DIR):
     try :
         with open(DATA_DIR) as object :
@@ -14,7 +14,16 @@ def ensure_dir(DATA_DIR =DATA_DIR):
 def load_questions(QUESTIONS_FILE=DATA_DIR):
     """
     Load questions from text file (JSON lines format).
+    Creates the file if it doesn't exist (first-run handling).
     """
+    import os
+    # Create parent directory and file if missing
+    os.makedirs(os.path.dirname(QUESTIONS_FILE), exist_ok=True)
+    if not os.path.exists(QUESTIONS_FILE):
+        with open(QUESTIONS_FILE, "w", encoding="utf-8") as f:
+            pass  # create empty file
+        print("Note: questions.txt was missing and has been created.")
+
     ensure_dir(QUESTIONS_FILE)
     questions = []
 
@@ -115,6 +124,7 @@ def delete_question(questions, filepath=DATA_DIR):
         qid = int(input("Enter Question ID to delete: "))
     except Exception as r :
         print(f'{r}! Enter number of ID ')
+        return False
     found_q = next((q for q in questions if q['id'] == qid), None)
     
     if not found_q:
