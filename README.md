@@ -1,4 +1,4 @@
-# Smart Quiz & Exam System
+# 🎓 Smart Quiz & Exam System
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -22,7 +22,7 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 The **Smart Quiz & Exam System** is a modular console-based application written entirely in Python. It provides a complete end-to-end solution for:
 - User authentication with security attempt limits.
@@ -68,7 +68,7 @@ Designed strictly using core fundamentals from **Python Crash Course** (variable
    - Automatically appends attempt timestamps, username, score, percentage, and status to `data/results.txt`.
    - Displays a formatted tabular history of past quiz attempts.
 
-6. **📊 System Analytics (`statistics.py`):**
+6. ** System Analytics (`statistics.py`):**
    - Summarizes total questions and breakdown by difficulty (`Easy`, `Medium`, `Hard`).
    - Computes historical metrics: total attempts, highest score, average percentage, and pass rate.
 
@@ -143,8 +143,11 @@ project/
 
 ### Default Login Credentials
 
-- **Username:** `admin`
-- **Password:** `admin123`
+| Username   | Password   |
+|------------|------------|
+| `nada`     | `nada123`  |
+| `student`  | `pass123`  |
+| `user`     | `password` |
 
 ---
 
@@ -176,6 +179,6 @@ OK
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
