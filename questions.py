@@ -1,7 +1,7 @@
 import json
 
 #from quiz_system.utils import print_header, print_separator, input_string, input_int, input_choice
-DATA_DIR = r'C:\Users\msi\Desktop\nada\مسار\project\data\questions.txt'
+DATA_DIR = r'questions.txt'
 def ensure_dir(DATA_DIR =DATA_DIR):
     try :
         with open(DATA_DIR) as object :
