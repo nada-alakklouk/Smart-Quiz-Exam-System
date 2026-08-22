@@ -27,7 +27,7 @@ def show_main_menu():
 logged_in = login(n_attempts=3)
 if not logged_in:
     sys.exit(0)
-DATA_DIR = r'C:\Users\msi\Desktop\nada\مسار\project\data\questions.txt'
+DATA_DIR = r'data\questions.txt'
 
 # Main Application Loop
 while True:
