@@ -1,7 +1,7 @@
 import json
 import os
 
-RESULTS_FILE = r'C:\Users\msi\Desktop\nada\مسار\project\data\results.txt'
+RESULTS_FILE = r'data\results.txt'
 
 def ensure_dir(filepath=RESULTS_FILE):
     dirname = os.path.dirname(filepath)
